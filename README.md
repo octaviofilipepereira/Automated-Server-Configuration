@@ -22,8 +22,8 @@ USAGE:
 
 ********************************************************************
 
-@version 1.0
-@author Octávio Filipe Pereira
+version 1.0
+author Octávio Filipe Pereira
 
 Copyright 2020 MagicBrain
 

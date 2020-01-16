@@ -1,8 +1,7 @@
-# Automated-Server-Configuration
-
 # Automated Server Configuration for Debian-Based Distributions
 
-# The objective of this program is help the user to install, configure and prepare an Debian-Based Distribuiton Server for online usage, reducing precious time in the instalation and configuration process of a server.
+# Objective
+The objective of this program is help the user to install, configure and prepare an Debian-Based Distribuiton Server for online usage, reducing precious time in the instalation and configuration process of a server.
 
 1. This program will run all the procedures to install and configure Linux Debian-Based Distributions Server.
 2. This program permits additionaly, if you want, automatically install and configure Webmin / Virtualmin Server GPL Management Platform.

@@ -1,6 +1,6 @@
 #!/bin/bash
 # Server Automated Instalation
-# Version 2.1.3
+# Version 2.1.5
 # Last Modification: 14-10-2019
 # Author: Octávio Filipe Pereira
 # Copyright 2020 MagicBrain, Lda, OFPG, Lda

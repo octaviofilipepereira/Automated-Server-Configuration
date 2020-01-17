@@ -244,9 +244,9 @@ else
 		source /root/install.sh
 
 		echo
-		echo -e "\e[38;5;82Server `$HOSTNAME` instalation finished!\e[0m"
+		echo -e "\e[38;5;82Server `$HOSTNAME` instalation finished, with Webmin and Virtualmin installed!\e[0m"
 	else
-		echo -e "\e[38;5;82Server `$HOSTNAME` instalation finished!\e[0m"
+		echo -e "\e[38;5;82Server `$HOSTNAME` instalation finished, without Webmin and Virtualmin!\e[0m"
 	fi
 fi
 

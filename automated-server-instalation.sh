@@ -21,7 +21,6 @@
 
 export DEBIAN_FRONTEND=noninteractive
 
-DAY_MONTH=`date +"%Y-%m"`;
 HOSTNAME=`which hostname`;
 
 cat << "EOF"
@@ -98,9 +97,6 @@ if [ ! -f /var/log/automated-osi.log ]; then
 
 	## OS CHECK FOR LINUX ONLY
 	OSTYPE=$(lsb_release -si)
-	OSARCH=$(uname -m)
-	OSVER=$(lsb_release -sr)
-	OSDISPLAY="$OSTYPE-$OSVER"
 	echo -e "\e[38;5;82mDetected Operating System:\e[0m" $(lsb_release -si) $(lsb_release -sr) $(uname -m)
 	sleep 2;
 	echo

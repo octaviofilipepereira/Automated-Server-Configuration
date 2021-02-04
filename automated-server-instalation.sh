@@ -225,7 +225,7 @@ else
 	echo
 
 	## Start Install Webmin/Virtualmin
-	read -p "Do you install Webmin/Virtualmin Control Panel? (y/n)" CONDITION;
+	read -p "Do you want to install Webmin/Virtualmin Control Panel? (y/n)" CONDITION;
 	echo
 	if [ "$CONDITION" == "y" ]; then
 		wget http://software.virtualmin.com/gpl/scripts/install.sh

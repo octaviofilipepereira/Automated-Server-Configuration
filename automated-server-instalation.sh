@@ -71,10 +71,10 @@ echo
 ## Check if this program is running with root user
 ###################################################
 if [[ $EUID -ne 0 ]]; then
-   echo -e "\e[38;5;82mThis program must be run as root.\e[0m"
-   echo
-   echo
-   exit 1
+	echo -e "\e[38;5;82mThis program must be run as root.\e[0m"
+	echo
+	echo
+	exit 1
 fi
 
 ##########################################
@@ -100,8 +100,8 @@ if [ ! -f /var/log/automated-osi.log ]; then
 	echo -e "\e[38;5;82mDetected Operating System:\e[0m" $(lsb_release -si) $(lsb_release -sr) $(uname -m)
 	sleep 2;
 	echo
-  read -p "This program only work in Debian-Based Distributions :: Do you wish to continue? (y/n)" CONTINUEINSTALATION;
-  echo
+	read -p "This program only work in Debian-Based Distributions :: Do you wish to continue? (y/n)" CONTINUEINSTALATION;
+	echo
 	if [ "$CONTINUEINSTALATION" == "n" ]; then
 		exit 0;
 	fi
@@ -122,7 +122,7 @@ if [ ! -f /var/log/automated-osi.log ]; then
 	sleep 2;
 
 	## Updating Locales
-  ## You can change or define more locales bellow
+	## You can change or define more locales bellow
 	echo -e "\e[38;5;82mUpdating LOCALES, please wait...\e[0m"
 	echo
 	locale-gen en_US en_US.UTF-8 hu_HU hu_HU.UTF-8 pt_PT pt_PT.UTF-8

@@ -157,7 +157,7 @@ if [ ! -f /var/log/automated-osi.log ]; then
 
 	echo -e "\e[38;5;82mAll packages are upgrade. The server will reboot in 10 seconds...\e[0m"
 	echo
-	echo -e "\e[38;5;82mAfter server reboot, rerun this script, so you can finish the instalation.\e[0m"
+	echo -e "\e[38;5;82mAfter server reboot, re-run this script, so you can finish the instalation.\e[0m"
 	echo
   	sleep 10;
 	shutdown -r now

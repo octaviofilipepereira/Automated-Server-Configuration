@@ -1,6 +1,6 @@
 #!/bin/bash
 # Server Automated Instalation
-# Version 2.1.5
+# Version 2.1.6
 # Last Modification: 14-10-2019
 # Author: Octávio Filipe Pereira
 # Copyright 2020 MagicBrain, Lda, OFPG, Lda
@@ -155,9 +155,11 @@ if [ ! -f /var/log/automated-osi.log ]; then
 	aptitude -y --assume-yes upgrade 2>&1 | tee /var/log/automated-osi.log
 	sleep 5;
 
-	echo -e "\e[38;5;82mAll packages are upgrade. The server will reboot in 5 seconds...\e[0m"
+	echo -e "\e[38;5;82mAll packages are upgrade. The server will reboot in 10 seconds...\e[0m"
 	echo
-  sleep 5;
+	echo -e "\e[38;5;82mAfter server reboot, rerun this script, so you can finish the instalation.\e[0m"
+	echo
+  	sleep 10;
 	shutdown -r now
 
 else

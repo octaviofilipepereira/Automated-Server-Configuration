@@ -3,6 +3,11 @@
 # Objective
 The objective of this program is help the user to install, configure and prepare an Debian-Based Distribution Server for online usage, reducing precious time in the instalation and configuration process of a server.
 
+
+Version: 2.1.6
+- Minor changes, related to user messages;
+- Fix some code indentation [@marcosmarado]
+
 Version: 2.1.5
 
 1. This program will run all the procedures to install and configure Linux Debian-Based Distributions Server.

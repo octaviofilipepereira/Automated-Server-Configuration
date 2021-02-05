@@ -5,7 +5,7 @@ The objective of this program is help the user to install, configure and prepare
 
 
 Version: 2.1.6
-- Minor changes, related to user messages;
+- Minor changes, related to user messages [Octávio Filipe Pereira]
 - Fix some code indentation [Marcos Marado @ https://github.com/marado]
 
 Version: 2.1.5
